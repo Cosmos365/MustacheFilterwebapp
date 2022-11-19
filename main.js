@@ -18,8 +18,8 @@ function setup() {
 function gotPoses(results) {
     if (results.length > 0) {
         console.log(results);
-        nosex = results[0].pose.nose.x-15;
-        nosey = results[0].pose.nose.y+5;
+        nosex = results[0].pose.nose.x-8;
+        nosey = results[0].pose.nose.y+15;
         console.log("nose x = "+nosex);
         console.log("nose y = "+nosey);
     };  
